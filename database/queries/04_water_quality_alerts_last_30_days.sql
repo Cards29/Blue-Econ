@@ -1,5 +1,3 @@
-
-
 SELECT 
     f.farm_name,
     t.tank_id,

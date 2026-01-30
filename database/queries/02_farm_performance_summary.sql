@@ -1,5 +1,3 @@
-=
-
 SELECT 
     f.farm_id,
     f.farm_name,

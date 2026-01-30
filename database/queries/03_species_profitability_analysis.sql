@@ -1,5 +1,3 @@
-
-
 SELECT 
     s.species_id,
     s.common_name AS species,

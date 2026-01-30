@@ -1,4 +1,3 @@
-
 SELECT 
     b.batch_id,
     s.common_name AS species,
