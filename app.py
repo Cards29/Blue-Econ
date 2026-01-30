@@ -35,7 +35,7 @@ def display_results(df):
         st.info("No results found.")
 
 
-st.title("PostgreSQL Functions, Procedures & Queries")
+st.title("BLUECON: Dashboard")
 
 # Load SQL files
 queries = load_sql_files("queries")
