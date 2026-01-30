@@ -107,16 +107,11 @@ Master Data      Operational              Commercial
 ```
 database/
 ├── schema.sql                    # 13 tables with constraints
-├── batch_profit_calculation.sql  # Dynamic pricing function
-├── feed_cost_auto_update.sql     # Real-time cost tracking trigger
 ├── seeds.sql                     # 350+ sample records
 ├── functions/                    # PL/pgSQL functions
 ├── procedures/                   # Stored procedures
 └── queries/                      # Analytical SELECT queries
 
-docs/
-├── PRESENTATION_2_DEMO.md        # Demo script
-└── SETUP_GUIDE.md                # Installation guide
 ```
 
 ---
