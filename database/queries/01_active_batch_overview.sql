@@ -1,10 +1,3 @@
--- ============================================================================
--- Query 1: Active Batch Overview with Tank Capacity
--- ============================================================================
--- Purpose: Display active batches with species info, tank details, and capacity utilization
--- Business Value: Operations dashboard showing current batch status and resource usage
--- Complexity: 4-table JOIN, calculated fields (capacity %, days old)
--- ============================================================================
 
 SELECT 
     b.batch_id,

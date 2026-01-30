@@ -1,12 +1,3 @@
--- ============================================================================
--- Query 6: Batch Health and Mortality Analysis
--- ============================================================================
--- Purpose: Analyze mortality trends by batch with survival rates
--- Business Value: Health management and risk assessment, identify problematic batches
--- Complexity: GROUP BY with aggregate functions, calculated survival rates, filtering
--- Type: ANALYTICAL/REPORTING QUERY
--- ============================================================================
-
 SELECT 
     b.batch_id,
     s.common_name AS species,

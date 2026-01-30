@@ -1,11 +1,4 @@
--- ============================================================================
--- Query 2: Farm Performance Summary
--- ============================================================================
--- Purpose: Aggregate statistics per farm showing operational performance
--- Business Value: Farm comparison for resource allocation and management decisions
--- Complexity: GROUP BY with multiple aggregates across 3 tables, calculated metrics
--- Type: ANALYTICAL/REPORTING QUERY
--- ============================================================================
+=
 
 SELECT 
     f.farm_id,

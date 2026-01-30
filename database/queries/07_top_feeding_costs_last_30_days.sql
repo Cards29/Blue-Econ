@@ -1,12 +1,3 @@
--- ============================================================================
--- Query 7: Top Feeding Cost Analysis (Last 30 Days)
--- ============================================================================
--- Purpose: Identify batches with highest feeding costs and consumption patterns
--- Business Value: Cost control and budget management, optimize feeding strategies
--- Complexity: Nested subquery, GROUP BY, aggregate functions, date filtering, HAVING
--- Type: ANALYTICAL/REPORTING QUERY
--- ============================================================================
-
 SELECT 
     b.batch_id,
     s.common_name AS species,

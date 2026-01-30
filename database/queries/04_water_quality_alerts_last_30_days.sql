@@ -1,11 +1,4 @@
--- ============================================================================
--- Query 4: Critical Water Quality Alerts (Last 30 Days)
--- ============================================================================
--- Purpose: Identify tanks with critical or warning water quality in last 30 days
--- Business Value: Immediate action alerts for farm managers to prevent fish mortality
--- Complexity: Date filtering, CASE statements, nested subquery for latest readings
--- Type: ANALYTICAL/REPORTING QUERY
--- ============================================================================
+
 
 SELECT 
     f.farm_name,

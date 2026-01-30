@@ -1,11 +1,4 @@
--- ============================================================================
--- Query 3: Species Profitability Analysis
--- ============================================================================
--- Purpose: Compare profit margins, costs, and revenue across different fish species
--- Business Value: Strategic planning - identify most profitable species to prioritize
--- Complexity: Nested subquery, GROUP BY with aggregates, complex calculations (ROI)
--- Type: ANALYTICAL/REPORTING QUERY
--- ============================================================================
+
 
 SELECT 
     s.species_id,

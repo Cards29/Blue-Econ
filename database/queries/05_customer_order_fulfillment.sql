@@ -1,12 +1,3 @@
--- ============================================================================
--- Query 5: Customer Order Fulfillment Status
--- ============================================================================
--- Purpose: Track customer orders with shipment status and delivery timelines
--- Business Value: Customer service and logistics tracking, identify unfulfilled orders
--- Complexity: LEFT JOIN to show unfulfilled orders, date calculations, aggregation
--- Type: Multi-table JOIN with conditional data
--- ============================================================================
-
 SELECT 
     co.order_id,
     c.company_name AS customer,
